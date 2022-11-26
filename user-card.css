@@ -1,0 +1,47 @@
+.img {
+  width: 160px;
+  float: left;
+}
+.text {
+  margin-left: 200px;
+}
+.main-div {
+  border: solid;
+  border-color: yellow;
+
+  width: 600px;
+  display: block;
+}
+
+.button {
+  display: flex;
+  align-items: flex-end;
+}
+.login {
+  outline-color: palevioletred;
+  outline-style: solid;
+  outline-width: 2px;
+  width: 150px;
+}
+.name {
+  outline-color: palevioletred;
+  outline-style: solid;
+  outline-width: 2px;
+  width: 150px;
+}
+.number {
+  outline-color: palevioletred;
+  outline-style: solid;
+  outline-width: 2px;
+  width: 150px;
+}
+.place {
+  outline-color: palevioletred;
+  outline-style: solid;
+  outline-width: 2px;
+  width: 150px;
+}
+.button {
+  margin-top: 250px;
+  margin-left: 160px;
+}
