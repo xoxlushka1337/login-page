@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(175, 106, 239);
+}
 .login-form {
   position: absolute;
   top: 50%;
@@ -7,46 +10,72 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  outline-color: rgb(255, 255, 0);
-  outline-style: solid;
-  outline-width: 2px;
-  padding: 10px 10px 10px 10px;
+  background-color: white;
+  width: 350px;
+  height: 460px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 }
-.input1 {
+.input {
   display: block;
   margin-bottom: 15px;
+  width: 240px;
+  height: 27px;
+  background-color: gainsboro;
+  outline: 0;
+  outline-offset: 0;
+  border: 0;
+  border-radius: 5px;
+  -webkit-box-shadow: -2px 5px 6px -5px rgba(173, 177, 180, 0.16);
+  -moz-box-shadow: -2px 5px 6px -5px rgba(173, 177, 180, 0.16);
+  box-shadow: -2px 5px 6px -5px rgba(173, 177, 180, 0.16);
 }
-.input2 {
-  display: block;
-}
+
 .hedar {
   text-align: center;
   margin: auto auto;
 }
 .button {
-  outline-color: rgb(89, 231, 89);
-  outline-style: solid;
-  outline-width: 2px;
-  padding: 10px 10px 10px 10px;
+  margin-bottom: 60px;
 }
 .b2 {
-  margin-left: 30px;
+  display: block;
+  width: 240px;
+  height: 35px;
+  margin-left: 55px;
+  outline: 0;
+  outline-offset: 0;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(185, 121, 246);
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(173, 177, 180, 0.6);
+  -moz-box-shadow: 5px 5px 5px -5px rgba(173, 177, 180, 0.6);
+  box-shadow: 5px 5px 5px -5px rgba(173, 177, 180, 0.6);
+  font-size: 16px;
+}
+.b1 {
+  display: block;
+  margin-bottom: 30px;
+  width: 240px;
+  height: 35px;
+  margin-left: 55px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(185, 121, 246);
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(173, 177, 180, 0.6);
+  -moz-box-shadow: 5px 5px 5px -5px rgba(173, 177, 180, 0.6);
+  box-shadow: 5px 5px 5px -5px rgba(173, 177, 180, 0.6);
+  font-size: 16px;
 }
 .p {
   padding-bottom: 1px;
 }
 .hedar-index {
-  outline-color: palevioletred;
-  outline-style: solid;
-  outline-width: 2px;
+  padding-bottom: 25px;
 }
-.field {
-  outline-color: red;
-  outline-style: solid;
-  outline-width: 2px;
-  padding: 4px 4px 4px 4px;
-  margin-bottom: 20px;
-}
+
 .form {
   position: absolute;
   top: 50%;
